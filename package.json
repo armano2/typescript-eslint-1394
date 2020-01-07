@@ -1,0 +1,21 @@
+{
+  "name": "eslint-typescript-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node ./src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/rest": "^16.36.0",
+    "@typescript-eslint/eslint-plugin": "^2.15.0",
+    "@typescript-eslint/parser": "^2.15.0",
+    "eslint": "^6.8.0",
+    "prettier": "^1.19.1",
+    "system-sleep": "^1.3.6",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.4"
+  }
+}
