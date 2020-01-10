@@ -1,7 +1,3 @@
 {
-    "eslint.validate": [
-        "vue",
-        "html",
-        "javascript",
-    ]
+  "eslint.validate": ["vue", "html", "javascript"]
 }
