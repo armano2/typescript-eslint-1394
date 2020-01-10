@@ -4,10 +4,13 @@ module.exports = {
         'plugin:@typescript-eslint/eslint-recommended',
         'plugin:@typescript-eslint/recommended',
     ],
-    parser: "@typescript-eslint/parser",
+    parser: "vue-eslint-parser",
     parserOptions: {
         tsconfigRootDir: __dirname,
-        project: "./tsconfig.eslint.json",
+        parser: "@typescript-eslint/parser",
+        project: "./tsconfig.json",
+		sourceType: "module",
+		extraFileExtensions: [".vue"]
     },
     rules: {
         "@typescript-eslint/no-explicit-any": "error",

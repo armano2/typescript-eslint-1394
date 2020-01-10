@@ -1,5 +1,0 @@
-{
-  "extends": "./tsconfig",
-  "include": ["./**/*", "./.storybook/**/*"],
-  "exclude": ["assets", "build", "build-resources", "node_modules", "tmp"]
-}
