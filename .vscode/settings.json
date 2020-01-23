@@ -1,9 +1,13 @@
 {
-  "eslint.validate": [
-    "vue",
-    "html",
-    "javascript"
-  ],
+  "eslint.validate": ["vue", "html", "javascript"],
   "eslint.alwaysShowStatus": true,
-  "eslint.packageManager": "yarn"
+  "eslint.packageManager": "yarn",
+  "eslint.probe": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "vue"
+  ]
 }

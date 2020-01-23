@@ -1,22 +1,10 @@
 {
   "compilerOptions": {
-    "target": "es6",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": false,
-    "noEmit": true,
-    "jsx": "preserve",
-    "downlevelIteration": true,
-    "sourceMap": true,
-    "checkJs": true
+    "target": "es5",
+    "module": "none",
+    "outDir": "dist/",
+    "rootDir": "src/",
+    "moduleResolution": "node"
   },
-  "include": ["./**/*.ts", "./**/*.vue", "./**/*.js"]
+  "include": ["src/tmp.ts"]
 }

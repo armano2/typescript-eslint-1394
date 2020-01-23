@@ -1,1 +1,3 @@
-const foo = 2 as any;
+const foo = 1;
+(() => {})();
+let a: 'a' | 'b';
